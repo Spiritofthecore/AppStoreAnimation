@@ -10,11 +10,11 @@ import SwiftUI
 struct Tabbar: View {
     var body: some View {
         TabView {
-            Text("Today")
+            Text("Home")
                 .tabItem {
                     Image("home")
                         .renderingMode(.template)
-                    Text("Games")
+                    Text("Home")
                 }
             Text("Games")
                 .tabItem {
